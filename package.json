@@ -1,0 +1,42 @@
+{
+  "name": "uas-clean-arc",
+  "version": "1.0.0",
+  "description": "User Authentication System in NodeJS using Clean Architecture",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadarafatarif/uas-clean-arc.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "clean-architecture",
+    "express",
+    "mongodb",
+    "JWT",
+    "REST",
+    "APIs"
+  ],
+  "author": "Muhammad Arafat Arif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhammadarafatarif/uas-clean-arc/issues"
+  },
+  "homepage": "https://github.com/muhammadarafatarif/uas-clean-arc#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.5",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.4"
+  }
+}
