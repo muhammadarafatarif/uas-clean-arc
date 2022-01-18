@@ -1,4 +1,4 @@
-const req = require("./inMemory");
+const inMemory = require("./inMemory");
 
 module.exports = {
     inMemory
